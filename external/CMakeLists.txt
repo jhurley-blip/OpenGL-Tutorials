@@ -11,6 +11,8 @@ add_definitions(
 	-D_CRT_SECURE_NO_WARNINGS
 )
 
+find_package(Threads REQUIRED)
+
 ### GLFW ###
 
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "Build the GLFW documentation")
